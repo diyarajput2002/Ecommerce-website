@@ -1,5 +1,5 @@
-import React from 'react'
-import './DescriptionBox.css'
+import React from 'react';
+import './DescriptionBox.css';
 const DescriptionBox = () => {
   return (
     <div className='descriptionbox'>
@@ -17,4 +17,4 @@ const DescriptionBox = () => {
   )
 }
 
-export default DescriptionBox
+export default DescriptionBox;

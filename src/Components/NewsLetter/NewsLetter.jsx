@@ -1,5 +1,5 @@
-import React from 'react'
-import './NewsLetter.css'
+import React from 'react';
+import './NewsLetter.css';
 
 const NewsLetter = () => {
   return (
@@ -13,5 +13,5 @@ const NewsLetter = () => {
     </div>
   )
 }
-
+ 
 export default NewsLetter

@@ -1,8 +1,9 @@
 .navbar{
     display: flex;
     justify-content: space-around;
-    padding: 16px;
+    padding: 15px 0px;
     box-shadow: 0 1px 3px -2px black;
+    align-items: center;
 }
 .nav-logo{
     display: flex;
@@ -42,6 +43,7 @@
     display: flex;
     align-items: center;
     gap: 45px;
+   
 }
 .nav-login-card button{
     width: 157px;
@@ -53,7 +55,7 @@
     font-size: 20px;
     font-weight: 500;
     background: white;
-    cursor: pointer;
+    cursor: pointer; 
 }
 .nav-login-card button:active{
     background: #f3f3f3;
@@ -71,3 +73,101 @@
     background: red;
     color: white;
 }
+@media  (max-width: 1280px) {
+    .navbar{
+        padding:12px 50px ;
+    }
+    .nav-logo img{
+        width: 40px;
+    }
+    .nav-logo p{
+        font-size:25px;
+    }
+    .nav-menu{
+        gap:30px ;
+        font-size:16px;
+    }
+    .nav-login-card{
+     gap: 30px;
+    }
+    .nav-login-card button{
+        width:120px;
+        height:45px;
+        font-size:16px;
+    }
+    .nav-cart-count{
+        margin-left:-40px;
+        font-size:12px;
+    }
+  }
+  .nav-dropdown{
+    display:none;
+  }
+  @media (max-width:1024px){
+    .navbar{
+        padding:12px 30px ;
+    }
+    .nav-logo img{
+        width: 30px;
+    }
+    .nav-menu{
+        gap:25px ;
+        font-size:14px;
+    }
+    .nav-login-card{
+     gap: 30px;
+    }
+    .nav-login-card button{
+        width:80px;
+        height:35px;
+        font-size:14px;
+    }
+    .nav-cart-count{
+       width:18px;
+       height:18px;
+    }
+  }
+  @media (max-width:800px){
+    .navbar{
+        padding:10px 0px;
+    }
+    .nav-dropdown{
+        display: block;
+        width:20px;
+        rotate:-90deg;
+        transition:0.5s;
+    }
+    .nav-menu{
+        display:none;
+        height:80px;
+        width:100%;
+        position:absolute;
+        background-color:white;
+        justify-content: center;
+        top:50px;
+    }
+    .nav-menu-visible{
+        display: flex;
+         
+    }
+    .nav-dropdown.open{
+        transform: rotate(90deg);
+    }
+  }
+
+  @media(max-width:500px){
+    .navbar{
+        width:8px 0px;
+        gap:0;
+    }
+    .nav-logo{
+        transform:scale(o.8);
+    }
+    .nav-menu{
+        height:70px;
+        top:50px;
+    }
+    .nav-login-card{
+        transform:scale(0.8);
+    }
+  }

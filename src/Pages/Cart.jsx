@@ -1,5 +1,5 @@
-import React from 'react'
-import CartItems from '../Components/CartItems/CartItems'
+import React from 'react';
+import CartItems from '../Components/CartItems/CartItems';
 
 const Cart = () => {
   return (
@@ -9,4 +9,4 @@ const Cart = () => {
   )
 }
 
-export default Cart
+export default Cart;

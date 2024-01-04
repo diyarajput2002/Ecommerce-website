@@ -1,5 +1,5 @@
-import React from 'react'
-import './Hero.css'
+import React from 'react';
+import './Hero.css';
 import hand_icon from '../Assets/hand_icon.png';
 import arrow_icon from '../Assets/arrow.png';
 import hero_image from '../Assets/hero_image.png';
@@ -23,10 +23,10 @@ const Hero = () => {
 </div>
 </div>
 <div className="hero-right">
-<img src={hero_image} alt=''/>
+<img src={hero_image} alt='model' height='100%' width = '70%'/>
 </div>
     </div>
   )
 }
 
-export default Hero
+export default Hero;

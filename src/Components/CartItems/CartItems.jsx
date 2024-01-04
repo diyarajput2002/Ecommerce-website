@@ -1,5 +1,5 @@
-import React, { useContext } from 'react'
-import './CartItems.css'
+import React, { useContext } from 'react';
+import './CartItems.css';
 import { ShopContext } from '../../Context/ShopContext';
 import remove_icon from '../Assets/cart_cross_icon.png';
 const CartItems = () => {
@@ -56,7 +56,6 @@ const CartItems = () => {
             </div>
             <button>PROCEED TO CHECKOUT</button>
         </div>
-        {/* promocode section */}
         <div className='cartitems-promocode'>
             <p>If you have a promocode, Enter it here </p>
             <div className='cartitems-promobox'>
@@ -69,4 +68,4 @@ const CartItems = () => {
   )
 }
 
-export default CartItems
+export default CartItems;
